@@ -10,6 +10,16 @@ Crypto tools
 
 > [https://www.cryptool.org/en/cto/](https://www.cryptool.org/en/cto/)
 
+Crypto bruteforce tools
+
+> [https://planetcalc.com/search/?tag=1204](https://planetcalc.com/search/?tag=1204)
+
+Subsitution bruteforce tools
+
+> [https://planetcalc.com/8047/](https://planetcalc.com/8047/)
+
+
+
 Exif & Metadata viewer
 
 > [https://exifmeta.com/](https://exifmeta.com/)
