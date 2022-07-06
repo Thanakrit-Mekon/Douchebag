@@ -2,75 +2,81 @@
 
 ## Online Tools
 
-**Cipher Identifier**
+Cipher Identifier
 
 > [https://www.dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier)
 
-**Crypto tools**
+Crypto tools
 
 > [https://www.cryptool.org/en/cto/](https://www.cryptool.org/en/cto/)
 
-**Exif & Metadata viewer**
+Exif & Metadata viewer
 
 > [https://exifmeta.com/](https://exifmeta.com/)
 
-**Whois**
+Whois
 
 > [https://who.is/](https://who.is/)
 
-**Steganography**
+Steganography
 > [https://stylesuxx.github.io/steganography/](https://stylesuxx.github.io/steganography/)
-
 
 ## Caesar cipher
 
-**tr**
-```
+### tr
+
+```bash
 tr [OPTION] SET1 [SET2]
 ```
 
 ROT13 Encode
-```
+
+```bash
 echo "abcd" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 
 ROT13 Decode
-```
+
+```bash
 echo "abcd" | tr 'N-ZA-Mn-za-m' 'A-Za-z' 
 ```
 
 ROT47 Encode
-```
+
+```bash
 echo "abcd" | tr '\!-~' 'P-~\!-O'
 ```
 
 ROT47 Decode
-```
+
+```bash
 echo "abcd" | tr 'P-~\!-O' '\!-~' 
 ```
 
-## Caesar cipher
+## Base64
 
-**base64**
+### base64
 
 base64 text encode
-```
+
+```bash
 echo -n "1234" | base64
 ```
 
 base64 text decode
-```
+
+```bash
 echo -n "1234" | base64 -d 
 ```
 
 base64 file encode
-```
+
+```bash
 base64 /bin/mkdir > mkdir-base64.txt
 ```
 
 base64 file decode
-```
+
+```bash
 base64 -d pix.base64 > pic.jpg
 ```
-
-

@@ -2,18 +2,19 @@
 
 ## Sudo using TouchID
 
-```
+```bash
 sudo vi /etc/pam.d/sudo
 ```
 
-Append first line
-```
+Append to first line
+
+```text
 auth       sufficient     pam_tid.so
 ```
 
 ## Install Homebrew
 
-```
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -24,33 +25,36 @@ auth       sufficient     pam_tid.so
 
 > Install Fonts in Font Book built in application
 
+### Install oh-my-zsh
 
-**Install oh-my-zsh**
-```
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-**Install plugins & theme**
+### Install plugins & theme
 
 zsh-autosuggestions
-```
+
+```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 
 zsh-syntax-highlighting
-```
+
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
 
 install powerline10k theme
-```
+
+```bash
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
+
 > sudo vi ~/.zshrc
 > Edit these line
-> 
 > ZSH_THEME="powerlevel10k/powerlevel10k"
 > ENABLE_CORRECTION=“true”
 > plugins=(git node npm yarn vscode zsh-autosuggestions zsh-syntax-highlighting)
 
-## ** In any terminal set fonts to nerdfonts to use powerline10k **
+#### In any terminal set fonts to nerdfonts to use powerline10k 
