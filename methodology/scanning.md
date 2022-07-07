@@ -1,15 +1,16 @@
 # Scanning methodology
 
-### Nmap
+## Nmap
 
 - **Installation**
 
-  ```
+  ```bash
   brew install nmap
   ```
+
 - **Run scan**
 
-  ```
+  ```bash
   nmap 10.10.155.23
   ```
 
@@ -25,24 +26,26 @@
 
 - **Installation**
 
-  ```
+  ```bash
   brew install feroxbuster
   ```
+
 - **Run scan**
 
-  ```
-  feroxbuster -u http://10.10.155.23:3333/ --silent -w ~/Wordlist/Directory/directory-list-2.3-small.txt 
+  ```bash
+  feroxbuster -u http://10.10.155.23:3333/ --silent -w wordlist/Directory/directory-list-2.3-small.txt 
   ```
 
 ### Nikto
 
 - Installation
 
-  ```
+  ```bash
   brew install nikto
   ```
+
 - Run scan
 
-  ```
+  ```bash
   nikto -host 10.10.155.23 -port 3333
   ```

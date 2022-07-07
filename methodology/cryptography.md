@@ -18,8 +18,6 @@ Subsitution bruteforce tools
 
 > [https://planetcalc.com/8047/](https://planetcalc.com/8047/)
 
-
-
 Exif & Metadata viewer
 
 > [https://exifmeta.com/](https://exifmeta.com/)
