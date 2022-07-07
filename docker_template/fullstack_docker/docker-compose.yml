@@ -2,6 +2,18 @@ version: '3'
 
 services:
 
+  frontend:
+    build: ./svelte-docker
+    ports:
+      - "5000:80"
+    restart: unless-stopped
+
+  # backend:
+  #   build: ./NodeJS_backend
+  #   ports:
+  #     - "3001:3001"
+  #   restart: unless-stopped
+
   mongo:
     image: mongo:latest
     restart: unless-stopped
